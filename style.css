@@ -65,7 +65,7 @@ h1 {
 }
 
 /* Form */
-.form {
+.input-form {
   width: 480px;
 }
 
@@ -123,7 +123,7 @@ li span {
 }
 
 /* Complete */
-.complete {
+.complete-container {
   position: relative;
   top: 60px;
 }
@@ -165,7 +165,7 @@ li span {
   }
 
   .container {
-    
+    min-width: 0;
     min-height: 245px;
     padding: 20px;
     margin: 10px;
@@ -175,12 +175,12 @@ li span {
     top: unset;
   }
 
-  .countdown {
+  .countdown-container {
     position: relative;
     top: 10px;
   }
 
-  .form {
+  .input-form {
     width: unset;
   }
 
